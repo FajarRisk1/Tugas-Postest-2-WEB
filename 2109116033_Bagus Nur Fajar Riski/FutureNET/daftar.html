@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+
+    <title>Future Net - Not a Web Developer from Indonesia</title>
+    <meta name="title" content="Future Net - Not a Web Developer from Indonesia">
+    <meta name="description" content="This is a personal portfolio html">
+    <link rel="stylesheet" type="text/css" href="./assets/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    integrity="sha512-ejIBBd7VQjzjX9bPhjKwp8W6yE2vIbmyH5j1umhb8vcf5iYavjKX9xIuxetZZyOX6PNz1v97sbeyjUH2+BbpZg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="shortcut icon" href="./assets/images/iconn.png" type="image/x-icon">
+    <link rel="preload" href="./assets/images/newlogo.png">
+    </head>
+
+    <body class="container">
+        <form id="form" class="form-container">
+            <div class="button-box">
+            <div id="btn" style="left: 110px;"></div>
+            <button type="button" class="toggle-btn" id="log" onclick="location.href='login.html';">Log In</button>
+            <button type="button" class="toggle-btn" id="reg" onclick="location.href='daftar.html';">Register</button>
+            </div>
+
+            <div class="inp">
+            <input type="text" id="daf_nama" class="input-field" placeholder="Nama Lengkap" style="width: 88%; border:none;" required="required">
+            </div>
+            <div class="inp">
+            <input type="text" id="daf_email" class="input-field" placeholder="Email Address" style="width: 88%; border:none;" required="required">
+            </div>
+            <div class="inp">
+            <input type="password" id="daf_pass" class="input-field" placeholder="Password" style="width: 88%; border: none;" required="required">
+            </div>
+            <div class="inp">
+            <input type="checkbox" class="check-box" id="chkAgree" onclick="goFurther()">I agree to the Terms & Conditions
+            </div>
+            <button type="submit" class="submit-btn" disabled>Register</button>
+        </form>
+
+<script src="./assets/js/regist.js"></script>
+    </body>
+
+</html>

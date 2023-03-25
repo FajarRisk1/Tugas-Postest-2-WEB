@@ -1,0 +1,105 @@
+/* ?============= MAIN.CSS =============?*/
+
+/* *TABLE OF CONTENT*/
+    /* *COMPONENTS*/
+
+/************ Btn............................Buttons style */
+/************ Slider.........................Slider style */
+/************ Card...........................Cards style */
+
+    /* *MAIN CONTENT*/
+
+/************ Header.........................Modify header style */
+/************ Hero...........................Hero styles */
+/************ Client.........................Client style */
+/************ About..........................About style */
+/************ Skills.........................Skills style */
+/************ Cta............................Cta style */
+/************ Testimonials...................Testimonials style */
+/************ Media queries..................Responsive for all devices */
+
+
+
+
+/* ?============= COMPONENTS =============?*/
+
+@import url(../css/components/btn.css);
+@import url(../css/components/slider.css);
+@import url(../css/components/card.css);
+
+
+/* ?============= HEADER =============?*/
+
+.header {
+  background-color: transparent;
+  
+}
+
+.header.active {
+  background-color: var(--white);
+}
+
+
+/* ?============= HERO =============?*/
+
+.hero {
+  position: relative;
+  background-color: #3a464e;
+  padding-block-start: calc(var(--section-padding) + 60px);
+  text-align: center;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+
+.hero-text {
+  color : #FFFFFF;
+  margin-block: 25px;
+}
+
+/* ?============= ABOUT =============?*/
+
+.about .container {
+  display: grid;
+  gap: 50px;
+}
+
+.about .section-text{
+  margin-block: 25px 16px;
+}
+
+.about-list {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.about-list .list-text {
+  color: var(--jet);
+  font-weight: var(--fw-500);
+}
+
+.about-list .strong {
+  color: #3B05A5;
+  display: block;
+}
+
+.about .wrapper {
+  margin-block-start: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px 25px;
+}
+
+/* *=========== RESPONSIVE FOR LARGE THAN 992PX SCREEN ===========* */
+
+@media (min-width: 992px) {
+
+  /* ?========= HERO, ABOUT, SKILL =========?*/
+
+  :is(.hero, .about, .skill) .container {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+}

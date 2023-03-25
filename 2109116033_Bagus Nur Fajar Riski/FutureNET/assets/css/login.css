@@ -1,0 +1,159 @@
+* {
+	margin: 10;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.inp {
+    display: flex;
+    align-items: center;
+}
+.inp img {
+    margin-right: 10px;
+}
+.button-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+element.style {
+    color: rgb(255, 255, 255);
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: rgba(0,0,0,0.7);
+	/*opacity: 1;  Firefox */
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #01377e, #059eb9);
+	color: #fff;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+    margin-top: 20px;
+}
+.input-field
+{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+	outline: none;
+	background: transparent;
+	color: rgba(0,0,0);
+} 
+#btn
+{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right, #01377e, #059eb9);
+	border-radius: 30px;
+	transition: 0.5s;
+}
+.toggle-btn
+{
+    margin-top: 5px; /* add some margin-top */
+    padding: 10px 28px;
+	cursor: pointer;
+	background: transparent;
+	position: relative;
+	border: 0;
+	outline: none;
+    transition: transform 0.10s;
+    color: #020202
+}
+.button-box
+{
+	display: flex;
+	height: 40px;
+    position: relative;
+	box-shadow: 0 0 20px 9px rgba(0,0,0,.1);
+	border-radius: 35px;
+}  
+.inp {
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+	justify-content: center;
+} 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("/assets/images/blueclouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8; /* nilai opacity yang Anda inginkan */
+}
+    .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    max-width: 90%;
+    opacity: 2.0;
+    overflow: hidden;
+    position: relative;
+	margin: 6% auto;
+	padding: 5px;
+	border-radius: 5px;
+    transition: .5s;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+    input, button {
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+    }
+    button {
+        background-color: #064291;
+        color: rgb(12, 8, 8);
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0a4ca100;
+    }
+
